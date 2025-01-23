@@ -1,0 +1,33 @@
+body {
+    background-image: url("background.jpg"); /* Replace "your-image.jpg" with the actual path to your image file */
+    background-size: cover; /* Cover the entire screen */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+    background-position: center; /* Center the image on the screen */
+    background-attachment: fixed; /* Keep the image fixed while scrolling */
+  }
+
+  /* Basic Shadow */
+.image {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Blurred Shadow */
+  .image {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Drop Shadow */
+  .image {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Inner Shadow */
+  .image {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Multiple Shadows */
+  .image {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+                0 7px 10px rgba(0, 0, 0, 0.2);
+  }
